@@ -1,6 +1,7 @@
-package com.bamdoliro.wind.web.dto;
+package com.bamdoliro.wind.web;
 
 import com.bamdoliro.wind.service.WindsService;
+import com.bamdoliro.wind.web.dto.WindsSaveRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
