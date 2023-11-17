@@ -44,7 +44,7 @@ class WindsApiControllerTest {
         WindsSaveRequestDto requestDto = WindsSaveRequestDto.builder()
                 .content(content)
                 .build();
-        String url = "http://localhost:" + port + "/api/create";
+        String url = "http://localhost:" + port + "/create";
 
         //when
         ResponseEntity<Long> responseEntity = restTemplate

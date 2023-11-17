@@ -13,7 +13,7 @@ import java.util.List;
 public class WindsApiController {
     private final WindsService windsService;
 
-    @PostMapping("/api/create")
+    @PostMapping("/create")
     public Long save(@RequestBody WindsSaveRequestDto windsSaveRequestDto) {
         return windsService.save(windsSaveRequestDto);
     }
