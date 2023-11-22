@@ -17,8 +17,8 @@ public class Winds extends BaseTimeEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank
-    @Length(max = 30)
+//    @NotBlank
+//    @Length(max = 30)
     @Column(columnDefinition = "TEXT", nullable = false)
     private String content;
 
