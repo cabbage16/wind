@@ -22,8 +22,7 @@ public class WindsService {
     }
 
     public List<WindsResponseDto> findAll(){
-        List<Winds> windsList = windsRepository.findAll();
-        return windsList.stream()
+        return windsRepository.findAll().stream()
                 .map(WindsResponseDto::new)
                 .collect(Collectors.toList());
     }
